@@ -2,3 +2,5 @@
 /Logs
 Temp
 .idea/.idea.pixel_game
+*.sln
+*.csproj

@@ -1,0 +1,19 @@
+<!-- Copyright (C) 2018 Google Inc. All Rights Reserved.
+
+FirebaseApp iOS and Android Dependencies.
+-->
+<dependencies>
+  <iosPods>
+  </iosPods>
+  <androidPackages>
+    <androidPackage spec="com.android.support:appcompat-v7:+">
+    </androidPackage>
+    <androidPackage spec="com.google.android.play:core-common:2.0.0">
+    </androidPackage>
+    <androidPackage spec="com.google.android.play:app-update:2.1.0">
+    </androidPackage>
+    <androidPackage spec="com.google.android.play:app-update-ktx:2.1.0">
+    </androidPackage>
+    <androidPackage spec="com.google.android.gms:play-services-basement:17.1.1" />
+  </androidPackages>
+</dependencies>

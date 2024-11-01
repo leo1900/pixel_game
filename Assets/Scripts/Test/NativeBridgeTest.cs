@@ -21,7 +21,7 @@ public class BR : MonoBehaviour
 
     public void OnBtnClick()
     {
-        DragonNativeBridge.Copy("112233");
+        CatNativeBridge.Copy("112233");
     }
     // Update is called once per frame
     void Update()

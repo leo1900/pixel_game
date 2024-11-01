@@ -611,7 +611,7 @@ namespace FrameWork.Asset
                 return true;
             }
 
-            if(DragonNativeBridge.GetVersionCode() > versionCodeOnline)
+            if(CatNativeBridge.GetVersionCode() > versionCodeOnline)
             {
                 return true;
             }

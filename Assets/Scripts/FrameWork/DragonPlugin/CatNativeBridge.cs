@@ -6,7 +6,7 @@ using Newtonsoft.Json.Linq;
 
 namespace DragonU3DSDK
 {
-    public class DragonNativeBridge
+    public class CatNativeBridge
     {
 
 #if UNITY_IOS
@@ -152,7 +152,7 @@ namespace DragonU3DSDK
 #endif
 
         //静态构造函数保证使用前aj inited
-        static DragonNativeBridge()
+        static CatNativeBridge()
         {
             TextAsset textAsset = Resources.Load<TextAsset>("AppLovinSetting");
             string inter_placement = string.Empty;
@@ -194,7 +194,7 @@ namespace DragonU3DSDK
                 return;
             }
             AndroidJavaObject context = activity.Call<AndroidJavaObject>("getApplicationContext");
-            aj = new AndroidJavaClass("com.dragonplus.DragonNativeBridge");
+            aj = new AndroidJavaClass("com.dragonplus.CatNativeBridge");
             aj.CallStatic("initialize", context, activity,inter_placement,rv_placement);
 
             AndroidVersionName = aj.CallStatic<string>("getVersionName");

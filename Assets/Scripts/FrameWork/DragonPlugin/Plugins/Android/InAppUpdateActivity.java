@@ -1,4 +1,4 @@
-package com.dragonplus;
+package com.catswimming;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dragonplus"
+    package="com.catswimming"
     android:versionName="1.0"
     android:versionCode="1">
   <uses-sdk android:minSdkVersion="21"
       android:targetSdkVersion="21" />
     <application>
     	<activity 
-        	android:name="com.dragonplus.InAppUpdateActivity"
+        	android:name="com.catswimming.InAppUpdateActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
         </activity>
     </application>

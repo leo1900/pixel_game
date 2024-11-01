@@ -1,5 +1,5 @@
 
-package com.dragonplus;
+package com.catswimming;
 
 import android.Manifest;
 import android.app.Activity;
@@ -49,9 +49,9 @@ import com.unity3d.player.UnityPlayer;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 
-public class DragonNativeBridge {
+public class CatNativeBridge {
 
-    private static String TAG = "DragonNativeBridge";
+    private static String TAG = "CatNativeBridge";
     private static Context mContext;
     private static Activity mActivity;
     private static SoundPool pool;
@@ -272,7 +272,7 @@ public class DragonNativeBridge {
     public  static void RequestAppUpdate()
     {
         // 创建需要启动的Activity对应的Intent
-        Intent intent = new Intent(mActivity,com.dragonplus.InAppUpdateActivity.class);
+        Intent intent = new Intent(mActivity,com.catswimming.InAppUpdateActivity.class);
         // 启动intent对应的Activity
         mActivity.startActivity(intent);
     }
